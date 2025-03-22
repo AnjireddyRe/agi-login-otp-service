@@ -1,0 +1,17 @@
+{
+  "name": "agi-login-otp-service",
+  "version": "1.0.0",
+  "description": "Backend for OTP Email Verification using Node.js, Express and Nodemailer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.8",   
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
