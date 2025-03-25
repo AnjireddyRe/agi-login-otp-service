@@ -9,7 +9,7 @@ const options = {
       version: '1.0.0',
       description: 'API for generating and validating email OTPs'
     },
-    servers: [{ url: 'http://localhost:5000' }]
+    servers: [{ url: 'http://localhost:5000' }, { url: 'https://agiotpservice-bjd0gjf4gqfjbaa5.eastus-01.azurewebsites.net' }]
   },
   apis: ['./routes/*.js']
 };
